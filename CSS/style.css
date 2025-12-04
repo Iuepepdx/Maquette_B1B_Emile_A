@@ -1,0 +1,48 @@
+/* border radius pour arrondir les angles*/
+body{
+    background-image: url("/img/fond.jpg");
+}
+.window{
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgba(175, 175, 175, 0.7);
+    padding: 10%;
+    margin: 10%;
+    border: 1px black solid;
+    box-shadow: 12px, 10px, 10px  rgba(0, 0, 0, 1);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    /*background-color: blueviolet;*/
+}
+.logo{
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px 10px 10px 10px;
+}
+.top{
+    display: flex;
+    margin-top: 1%;
+    margin: 50px 50px;
+    justify-content: space-around;
+    text-decoration: none;
+    /*background-color: aqua;*/
+}
+.lorem{
+    /*background-color: rgba(59, 59, 59, 0.3);*/
+    color: aliceblue;
+    justify-items: center;
+    margin: 0px 60px 60px 60px;
+}
+.texte{
+    color:aliceblue ;
+    justify-items: center;
+    margin-top: 100px;
+}
+.play{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
